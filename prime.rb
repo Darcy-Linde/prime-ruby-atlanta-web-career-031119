@@ -1,7 +1,7 @@
 #prime?()
 def prime?(number)
   if number <= 0
-    false
+    return false
   end
   x = 0
   for count in 1..number do
